@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void hanoi(int i, string asal, string tujuan, string sementara) {
+void menara_hanoi(int i, string asal, string tujuan, string sementara) {
     if (i == 1) {
         cout << "Pindahkan piringan 1 dari menara " << asal << " ke menara " << tujuan << endl;
         return;
